@@ -1,5 +1,5 @@
 # hairproject
- https://fredodafred.github.io/hairproject/\
+ https://fredodafred.github.io/hairproject/
  
 A [workflowr][] project.
 
