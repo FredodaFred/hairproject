@@ -9,3 +9,15 @@ editor_options:
 ---
 
 Welcome to my research website.
+```{r}
+library("ggplot2")
+dataset = read.csv("./data/ChemHairData_Nov2020.csv", TRUE, ",")
+summary(dataset)
+ggplot(dataset, aes(x = A500 , y =PTCA )) +
+  geom_point()
+ggplot(dataset, aes(x = A650 , y =PTCA )) +
+  geom_point()
+
+ggplot(dataset, aes(x = H_4AHP , y =H_4AHP_PTCA )) +
+  geom_point()
+```
